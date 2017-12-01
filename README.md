@@ -77,11 +77,14 @@ Settings
 --------
 
 1. Initial path for scanning. The path is `new FilesWarden()` constructor parameter. By default it's set one level up from the tool script (i.e. `".."`).
-   If you change the path after state saving, then you will see changes like old path was deleted, and new one was added.
+   If you change the initial path after state saving, then you will see changes like old path was deleted, and new one was added.
 
 2. Excluded files and directories. Call `$filesWarden->AddExclusion()` to exclude some path from scanning. The excluding path is relative to the initial path.
    
   	By default index.php calls `$filesWarden->AddExclusion('files-warden/data');` to exclude own data because they change every time you do scan.
-   You can add additional exclusions. For the `AddExclusion()` parameter you can copy/paste path from change details popup title.
+   You can add additional exclusions. For the `AddExclusion()` parameter you can copy/paste path from change details popup title:
+
+![](https://szyryanov.github.io/files-warden/img/details-title.png)
+
 
 
