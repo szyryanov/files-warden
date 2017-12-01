@@ -12,6 +12,11 @@ Screenshots:
 ![](https://szyryanov.github.io/files-warden/img/screen1.png)
 ![](https://szyryanov.github.io/files-warden/img/screen2.png)
 
+Live Demo:
+----------
+
+<a href="http://ypwm.ru/heap/files-warden/?demo=1" target="_blank">Click here to see the live demo.</a>
+
 How it works
 ------------
 
