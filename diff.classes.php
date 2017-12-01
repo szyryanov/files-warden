@@ -81,21 +81,21 @@
         }
         
         private function checkDiffDemo(){
-          if (!is_dir("demo\prev")){
-            echo "directory not found: demo\prev <br />\r\n";
+          if (!is_dir("demo/prev")){
+            echo "directory not found: demo/prev <br />\r\n";
             return false;
           }
-          if (!is_dir("demo\curr")){
-            echo "directory not found: demo\curr <br />\r\n";
+          if (!is_dir("demo/curr")){
+            echo "directory not found: demo/curr <br />\r\n";
             return false;
           }
           //
           $this->prev = new State();
           $this->prev->DateTime = 1511988430;
-          $this->prev->Root->SubItems = $this->scan("demo\prev");
+          $this->prev->Root->SubItems = $this->scan("demo/prev");
           //
-          $currPath = "demo\curr";
-          if ($this->demoStep === 2) $currPath = "demo\prev";
+          $currPath = "demo/curr";
+          if ($this->demoStep === 2) $currPath = "demo/prev";
           $this->curr = new State();
           $this->curr->DateTime = time();
           $this->curr->Root->SubItems = $this->scan($currPath);
