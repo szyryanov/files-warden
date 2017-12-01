@@ -6,6 +6,12 @@ A simple but useful PHP tool to check changed files on a website.
 Changes can be done by you as a website author... and by a malicious software like viruses. 
 Using this tool, you can detect that your website is infected, even if it continues to look good.
 
+Screenshots:
+------------
+
+![](https://szyryanov.github.io/files-warden/img/screen1.png)
+![](https://szyryanov.github.io/files-warden/img/screen2.png)
+
 How it works
 ------------
 
